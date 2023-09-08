@@ -10,6 +10,11 @@
     margin: 5px;
 }
 
+.boxB:hover {
+    background-color:yellow;
+    color:goldenrod;
+}
+
 .dots-container {
     height: 100%;
     display: flex;
