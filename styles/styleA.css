@@ -15,6 +15,10 @@ h1 {
   flex-direction: column;
 }
 
+#versionB{
+  visibility: hidden;
+}
+
 .box {
   border-top: solid #687291 1px;
   width: 100px;
@@ -22,6 +26,7 @@ h1 {
   font-size: 40px;
   text-align: center;
   margin: 5px;
+  font-family: Tahoma;
 }
 
 .dark {

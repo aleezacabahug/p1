@@ -2,6 +2,10 @@
     display: flex;
 }
 
+#versionA{
+    visibility: hidden;
+}
+
 .boxB {
     background-color: #eeeff2;
     border-left: 10px dotted #D0D0FF;
@@ -11,6 +15,7 @@
     cursor: pointer;
     margin-inline-start: 10px;
     margin-block-start: 10px;
+    font-family: Tahoma;
 }
 
 .boxB:hover {
@@ -42,8 +47,9 @@
     width: 100px;
     height: 150px;
     font-size: 40px;
+    font-family: Tahoma;
     cursor: pointer;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     right: 0;
 }

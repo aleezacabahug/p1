@@ -1,0 +1,27 @@
+
+.emoji {
+    animation: emoji 0.6s linear infinite; 
+    animation-duration: 3s;
+  }
+  
+  .ghost {
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @keyframes emoji {
+    from {
+      transform: scale(0);
+    } 
+    
+    to {
+      transform: scale(.5);
+      
+    } 
+  }
+
+  #versionA, #versionB{
+    visibility: hidden;
+  }
