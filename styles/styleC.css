@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 
 .emoji {
+=======
+  .emoji {
+>>>>>>> 9f25a706e854e8f2b96c77540a6c77af7451e60e
     animation: emoji 0.6s linear infinite; 
     animation-duration: 3s;
   }
@@ -24,4 +28,9 @@
 
   #versionA, #versionB{
     visibility: hidden;
+<<<<<<< HEAD
   }
+=======
+  }
+
+>>>>>>> 9f25a706e854e8f2b96c77540a6c77af7451e60e
