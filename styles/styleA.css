@@ -15,6 +15,10 @@ h1 {
   flex-direction: column;
 }
 
+#versionB{
+  visibility: hidden;
+}
+
 .box {
   border-top: solid #687291 1px;
   width: 100px;

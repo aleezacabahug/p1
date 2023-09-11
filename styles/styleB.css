@@ -2,13 +2,19 @@
     display: flex;
 }
 
+#versionA{
+    visibility: hidden;
+}
+
 .boxB {
     background-color: #eeeff2;
+    border-left: 10px dotted #D0D0FF;
     width: 100px;
     height: 150px;
     font-size: 40px;
     cursor: pointer;
-    margin: 5px;
+    margin-inline-start: 10px;
+    margin-block-start: 10px;
 }
 
 .boxB:hover {
@@ -30,7 +36,33 @@
     border-radius: 50%;
 }
 
-#loner {
-    border: solid 1px red;
-    align-self: center;
+.letter{
+    padding-left: 10 px;
+}
+
+.boxLoner {
+    background-color: #eeeff2;
+    border-left: 10px dotted #D0D0FF;
+    width: 100px;
+    height: 150px;
+    font-size: 40px;
+    cursor: pointer;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.boxLoner:hover {
+    background-color:yellow;
+    color:goldenrod;
+}
+
+.boxB p{
+    margin-inline-start: 10px;
+    margin-block-start: 10px;
+}
+
+.boxLoner p{
+    margin-inline-start: 10px;
+    margin-block-start: 10px;
 }
